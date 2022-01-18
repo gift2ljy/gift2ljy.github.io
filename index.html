@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>
+            function password() {
+                var testV = 1;
+                var pass1 = prompt('请输入密码', '');
+                while (testV < 3) {
+                    if (!pass1)
+                        history.go(-1);
+                    if (pass1 == "19991229") {
+                        break;
+                    }
+                    testV += 1;
+                    var pass1 =
+                        prompt('密码错误!');
+                }
+                if (pass1 != "password" & testV == 3)
+                    history.go(-1);
+                return " ";
+            }
+            document.write(password());
+        </script>
         <title>Gift to LJY from Bao</title>
         <body>
-            <p> <center> <strong> <h1>建站公告：该站意在祝贺ljy小姐22岁生日快乐</h1> </strong> </center> </p>
+            <p> <center> <strong> <h1>建站公告：该站意在祝贺刘嘉仪小姐22岁生日快乐</h1> </strong> </center> </p>
             <p> <center> <strong> <h4>2021年12月23日</h4> </strong> </center> </p>
 
 
