@@ -5,7 +5,7 @@
             function password() {
                 var testV = 1;
                 var pass1 = prompt('请输入密码', '');
-                while (testV < 3) {
+                while (testV < 99999999) {
                     if (!pass1)
                         history.go(-1);
                     if (pass1 == "19991229") {
@@ -15,7 +15,7 @@
                     var pass1 =
                         prompt('密码错误!');
                 }
-                if (pass1 != "password" & testV == 3)
+                if (pass1 != "password" & testV == 99999999)
                     history.go(-1);
                 return " ";
             }
